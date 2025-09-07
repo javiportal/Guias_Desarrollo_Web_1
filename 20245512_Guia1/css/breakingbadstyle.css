@@ -1,0 +1,119 @@
+/* Estilos de fuente y color usando Google Fonts */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(39, 52, 37);
+    color: #2c3e50;
+    line-height: 1.6;
+}
+
+#main-title {
+    font-family: 'Montserrat', sans-serif;
+    color: green; 
+    background-color: #ddd;
+    display: in;
+    font-size: 3em; 
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+#subtitle {
+    font-family: 'Montserrat', sans-serif;
+    color: black; 
+    background-color: rgb(190, 215, 190);
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 10px; 
+}
+
+#intro p {
+    font-size: 1.2em; 
+    color: white; 
+    text-align: center;
+}
+
+#intro img {
+    width: 80%; 
+    max-width: 500px; 
+    height: auto;
+    display: block; 
+    margin: 0 auto; 
+}
+
+#seasons {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 30px; 
+}
+
+#seasons article h3 {
+    color: burlywood; 
+    font-size: 1.8em; 
+    margin-bottom: 5px; 
+}
+
+#seasons article p {
+    font-size: 1em;
+    color: white;
+    width: 80%;
+    margin: 0 auto 20px auto; 
+    text-align: justify; 
+}
+
+a {
+    color: green;
+    text-decoration: none;
+    font-weight: 700;
+    display: block; 
+    text-align: center;
+    margin: 20px auto; 
+}
+
+a:hover {
+    color: wheat; 
+    text-decoration: underline; 
+}
+
+#tabla-review {
+    margin: 40px auto;
+    text-align: center;
+}
+
+#tabla-review h3 {
+    color: wheat;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#tabla-review table {
+    width: 90%;
+    margin: 20px auto; 
+    border-collapse: collapse;
+}
+
+#tabla-review table th, 
+#tabla-review table td {
+    border: 1px solid #ddd;
+    padding: 10px; 
+    text-align: center;
+    color: white;
+}
+
+#tabla-review table th {
+    background-color: green; 
+    color: white; 
+    font-weight: bold;
+}
+
+caption{
+    color: aliceblue;
+}
+
+footer {
+    font-size: 1.1em;
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    color: #7f8c8d; 
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ecf0f1;
+}
