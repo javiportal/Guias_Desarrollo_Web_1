@@ -1,0 +1,95 @@
+/* CSS para el Resultado 1  */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+#diez_de_diamantes {
+    position: absolute;
+    top: 200px;
+    left: 250px;
+}
+
+#sota_de_diamantes {
+    position: absolute;
+    top: 220px;
+    left: 270px;
+}
+
+#reina_de_diamantes {
+    position: absolute;
+    top: 240px;
+    left: 290px;
+}
+
+#rey_de_diamantes {
+    position: absolute;
+    top: 260px;
+    left: 310px;
+}
+
+#as_de_diamantes {
+    position: absolute;
+    top: 280px;
+    left: 330px;
+}
+
+
+
+/* CSS para el Resultado 2 - Cartas con z-index invertido */
+
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+#diez_de_diamantes {
+    position: absolute;
+    top: 200px;
+    left: 250px;
+    z-index: 5; 
+}
+
+#sota_de_diamantes {
+    position: absolute;
+    top: 220px;
+    left: 270px;
+    z-index: 4;
+}
+
+#reina_de_diamantes {
+    position: absolute;
+    top: 240px;
+    left: 290px;
+    z-index: 3;
+}
+
+#rey_de_diamantes {
+    position: absolute;
+    top: 260px;
+    left: 310px;
+    z-index: 2;
+}
+
+#as_de_diamantes {
+    position: absolute;
+    top: 280px;
+    left: 330px;
+    z-index: 1; 
+}
+ */

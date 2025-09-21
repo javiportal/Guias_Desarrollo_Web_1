@@ -1,0 +1,122 @@
+@import url(https://fonts.googleapis.com/css?family=Muli);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Muli', sans-serif;
+    text-align: justify;
+    padding-top: 130px;  
+    padding-bottom: 70px; 
+}
+
+header {
+    background: #16A085;
+    height: 130px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+}
+
+footer {
+    margin-top: 20px;
+    background: #16A085;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /
+}
+
+header div, footer div {
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+}
+
+h1 {
+    font-size: 2.3rem;
+    margin-bottom: 1rem;
+    padding-top: 0.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+section {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+/* Cambiar de float a flexbox */
+section article {
+    font-size: 0.9rem;
+    height: 340px;
+    width: calc(33.33% - 10px);
+    box-sizing: border-box;
+    padding: 1%;
+    border: 2px dashed #16A085;
+    overflow: hidden;
+}
+
+section article img {
+    height: 180px;
+    width: 80%;
+    margin: 5px auto;
+    display: block;
+}
+
+section article h3 {
+    text-align: center;
+}
+
+footer div {
+    padding-top: 1rem;
+}
+
+section article:nth-child(2) {
+    background-color: rgba(70,130,180,0.9);
+    position: static;
+    left: 100px;
+    top: 50px;
+    /* visibility: hidden; */
+    display: none;
+    /* display: none = sin espacio, visibility: hidden = con espacio reservado. */
+}
+
+#galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.plan {
+    width: calc(33.33% - 10px);
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.plan img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.plan p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #464d52;
+}
