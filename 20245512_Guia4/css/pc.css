@@ -1,0 +1,143 @@
+/* MENU */
+nav{
+width: 100%; /* 960/960*=100%*/
+font-size: 1.4em;
+}
+nav ul{
+list-style: none;
+margin: 0px 0px 65px 0px;
+}
+nav ul li{
+float: left;
+margin: 0px;
+padding: 10px 0px 0px 0px;
+border-top: solid 2px white;
+}
+nav ul li a {
+text-decoration: none;
+padding: .3em .5em;
+margin: 0em .5em;
+display: block;
+color: white;
+transition: color 1s, transform 3s;
+}
+nav ul li a:hover{
+color: #AAA;
+transform:scale(1.5);
+}
+nav ul li a#inicio{
+background: url(../img/turismo/home.png) no-repeat 0px 3px;
+padding-left: 40px;
+}
+nav ul li a#planes{
+background: url(../img/turismo/planes.png) no-repeat 0px 3px;
+padding-left: 40px;
+}
+nav ul li a#galeria{
+background: url(../img/turismo/galeria.png) no-repeat 0px 3px;
+padding-left: 40px;
+}
+
+/* PARTE SUPERIOR */
+#encabezado{
+margin: 0px auto;
+width: 80%;
+min-width: 650px;/* YA NO REACCIONARA SI LA PANTALLA ES MAS PEQUEÑA
+QUE 650px*/
+max-width: 960px;/*YA NO REACCIONARA SI LA PANTALLA ES MAS GRANDE
+QUE 960 px*/
+}
+#superior #encabezado #logo{
+margin: 2% 0px; /*23/960=2%*/
+width: 21%; /*200/960= 21%*/
+height: auto;
+}
+#imgDesc img{
+width: 62.5%; /* 600/960= 62.5% */
+height: auto;
+float: left;
+}
+#imgDesc{
+overflow: hidden;/*obliga a cubrir a los elementos flotantes*/
+}
+#descripcion{
+width: 37.5%; /* 360/960=0.375*/
+background-color: #888;
+float: left;
+}
+#descripcion p{
+margin: 5%; /* 20/360 =5% */
+color: white;
+font-weight: bold;
+line-height: 170%;
+text-align:justify;
+font-size: 0.95em;
+}
+/*Contenido principal de las paginas */
+#contenido{
+width: 80%;
+margin: 0px auto;
+clear: left;
+overflow: auto;
+min-width: 650px;/* YA NO REACCIONARA SI LA CAJA ES MAS PEQUEÑA DE
+650px*/
+max-width: 960px;/*YA NO REACCIONARA SI LA CAJA ES MAS GRANDE QUE
+960 px*/
+}
+/* PARTE SUPERIOR */
+#encabezado{
+margin: 0px auto;
+width: 80%;
+min-width: 650px;/* YA NO REACCIONARA SI LA PANTALLA ES MAS PEQUEÑA
+QUE 650px*/
+max-width: 960px;/*YA NO REACCIONARA SI LA PANTALLA ES MAS GRANDE
+QUE 960 px*/
+}
+#superior #encabezado #logo{
+margin: 2% 0px; /*23/960=2%*/
+width: 21%; /*200/960= 21%*/
+height: auto;
+}
+#imgDesc img{
+width: 62.5%; /* 600/960= 62.5% */
+height: auto;
+float: left;
+}
+#imgDesc{
+overflow: hidden;/*obliga a cubrir a los elementos flotantes*/
+}
+#descripcion{
+width: 37.5%; /* 360/960=0.375*/
+background-color: #888;
+float: left;
+}
+#descripcion p{
+margin: 5%; /* 20/360 =5% */
+color: white;
+font-weight: bold;
+line-height: 170%;
+text-align:justify;
+font-size: 0.95em;
+}
+/*Contenido principal de las paginas */
+#contenido{
+width: 80%;
+margin: 0px auto;
+clear: left;
+overflow: auto;
+min-width: 650px;/* YA NO REACCIONARA SI LA CAJA ES MAS PEQUEÑA DE
+650px*/
+max-width: 960px;/*YA NO REACCIONARA SI LA CAJA ES MAS GRANDE QUE
+960 px*/
+}
+/* CONTENIDO DE LA PAGINA GALERIA*/
+#galeria .plan{
+font-size: 1em;
+padding-bottom: 10px;
+margin: 30px 1.4% 10px;
+display: inline-block;
+float: none;
+vertical-align: top;
+text-align: center;
+font-style: italic;
+}
